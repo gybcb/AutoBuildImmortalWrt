@@ -48,4 +48,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest luci-i18n-netspeedtest-z
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 
 #WireGuard
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES wireguard-tools kmod-wireguard luci-proto-wireguard
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES wireguard-tools kmod-wireguard luci-proto-wireguard"
+
+#Apple Bonjour
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES umdns"
